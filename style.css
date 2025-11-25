@@ -108,6 +108,7 @@ a:hover{
     justify-content: center;
     align-items: center;
     flex-grow: 1.2;
+    min-height: 350px;
 }
 
 .info-header-text{
@@ -120,7 +121,7 @@ a:hover{
     display:flex;
     margin-top: 12px;
     margin-bottom: 24px;
-    gap: 24px;
+    gap: 36px;
 }
 
 .square{
@@ -130,6 +131,13 @@ a:hover{
     border-radius: 10px;
 }
 
+.image-subtext{
+    width: 110px;
+    font-size: 12px;
+    margin-top: 8px;
+    text-align: center;
+}
+
 .quote-section{
     display: flex;
     flex-direction: column;
@@ -137,6 +145,7 @@ a:hover{
     align-items: center;
     flex-grow: 1.1;
     background-color: #E5E7EB;
+    min-height: 300px;
 }
 
 .quote-text{
@@ -156,6 +165,7 @@ a:hover{
     justify-content: center;
     align-items: center;
     flex-grow: 1;
+    min-height: 270px;
 }
 
 .call-to-action-box{
